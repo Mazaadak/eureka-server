@@ -2,7 +2,7 @@ spring:
   application:
     name: "eurekaserver"
   config:
-    import: "configserver:http://localhost:8071/"
+    import: "configserver:http://localhost:18071/"
 
 management:
   endpoints:
